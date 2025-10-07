@@ -1,0 +1,12 @@
+:: config.bat.template
+:: Copy this file to config.bat and fill in your own values
+:: DO NOT commit your real config.bat to version control!
+
+:: Path to PsExec.exe (update to your own location)
+set psexecPath="C:\Path\To\PsExec.exe"
+
+:: Path to the remote PowerShell script (update to your own location)
+set remoteScript="C:\Path\To\switch_displayport.ps1"
+
+:: SSH user and host (update to your own user@host)
+set sshUserHost="user@hostname or user@host_ip_address"
