@@ -1,2 +1,3 @@
 # Ignore config file with sensitive data
 config.bat
+PsExec.exe
